@@ -15,8 +15,8 @@ function ejerciciojs1() {
   eje4.innerHTML = `
     `;
   eje1.innerHTML = `
-        <br>
-            <div class="text-center d-flex justify-content-center row mb-3"><br>
+        
+            <div class="text-center d-flex justify-content-center row mb-1"><br>
                 <h2 class="p-3 mb-2 bg-primary text-white">Ejercicio 1</h2> 
                     <h2 class= "p-3 mb-2 bg-light text-primary">Digita una cadena de texto para saber si es palíndromo</h2> 
                     <br><br>
