@@ -20,7 +20,7 @@ function ejerciciojs1() {
                 <h2 class="p-3 mb-2 bg-primary text-white">Ejercicio 1</h2> 
                     <h2 class= "p-3 mb-2 bg-light text-primary">Digita una cadena de texto para saber si es palíndromo</h2> 
                     <br><br>
-                    <input class= "text-center d-flex col-md-12 row mb-3" type="text" placeholder="Digita una cadena" name="palindrome" id="palindrome" required ><br>
+                    <input class= "text-center d-flex col-md-12 mb-3" type="text" placeholder="Digita una cadena" name="palindrome" id="palindrome" required ><br>
 
                     <div class="d-grid gap-1 col-6 mx-auto justify-content-center">
                     <button type="button" class="btn btn-success" onclick="verificarPalindrome()">Verificar</button>
@@ -47,8 +47,8 @@ function ejerciciojs2() {
                     <h2 class="p-3 mb-2 bg-primary text-white">Ejercicio 2</h2> 
                     <h2 class= "p-3 mb-2 bg-light text-primary">Digita dos números para verificar cual es mayor</h2> 
                     <br><br>
-                    <input class= "text-center d-flex col-md-12 row mb-1" type="text" placeholder="Digita número 1" name="num1" id="num1" required ><br>
-                    <input class= "text-center d-flex col-md-12 row mb-1" type="text" placeholder="Digita número 2" name="num2" id="num2" required ><br>
+                    <input class= "text-center d-flex col-md-12 mb-1" type="text" placeholder="Digita número 1" name="num1" id="num1" required ><br>
+                    <input class= "text-center d-flex col-md-12 mb-1" type="text" placeholder="Digita número 2" name="num2" id="num2" required ><br>
 
                 </div>
 
@@ -75,7 +75,7 @@ function ejerciciojs3() {
                 <h2 class="p-3 mb-2 bg-primary text-white">Ejercicio 3</h2> 
                 <h2 class= "p-3 mb-2 bg-light text-primary">Digita una frase y te diremos cuántas vocales contiene</h2> 
                 <br><br>
-                <input class= "text-center d-flex col-md-12 row mb-3" type="text" placeholder="Digita una frase" name="contVocales" id="contVocales" required ><br>
+                <input class= "text-center d-flex col-md-12 mb-3" type="text" placeholder="Digita una frase" name="contVocales" id="contVocales" required ><br>
                 <div class="d-grid gap-1 col-6 mx-auto justify-content-center">
                 <button type="button" class="btn btn-success" onclick="contarvocales()">Verificar</button>
                 </div>
@@ -100,7 +100,7 @@ function ejerciciojs4() {
                 <h2 class="p-3 mb-2 bg-primary text-white">Ejercicio 4</h2> 
                 <h2 class= "p-3 mb-2 bg-light text-primary">Digita una frase y te diremos cuántas veces aparece cada una de las vocales</h2> 
                 <br><br>
-                <input class= "text-center d-flex col-md-12 row mb-3" type="text" placeholder="Digita una frase" name="contcadavocal" id="contcadavocal" required ><br>
+                <input class= "text-center d-flex col-md-12 mb-3" type="text" placeholder="Digita una frase" name="contcadavocal" id="contcadavocal" required ><br>
                 <div class="d-grid gap-1 col-6 mx-auto justify-content-center">
                 <button type="button" class="btn btn-success" onclick="contvocal()">Verificar</button>
                 </div>
